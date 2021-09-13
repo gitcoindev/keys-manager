@@ -5,6 +5,7 @@
   "scripts": {
     "start:atomic": "node -r dotenv/config ./src/scenario-atomic.js",
     "start:all": "node -r dotenv/config ./src/scenario-all.js",
+    "start:all-lost-or-stolen-key": "node -r dotenv/config ./src/scenario-all-lost-or-stolen-key.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
